@@ -70,7 +70,7 @@ def sort(chunk_count, chunk_size, input, output):
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-c", "--count", help="Chunks count", type=int, default=10)
-parser.add_argument("-s", "--chunk-size", help="Chunk size (lines count)", type=int, default=1000)
+parser.add_argument("-s", "--chunk-size", help="Chunk size (lines count)", type=int, default=100000)
 parser.add_argument("-i", "--input", help="Input filename", default="in.txt")
 parser.add_argument("-o", "--output", help="Output filename", default="out.txt")
 args = parser.parse_args()
